@@ -10,10 +10,23 @@
 }
 
 body {
-  background-image: url(/css/background.jpg);
+  background-image: url(../css/background.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-attachment: fixed;
   color: white;
+}
+body h4 {
+  color: rgb(209, 27, 27);
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    display: none;
+  }
+  body ss {
+    display: block;
+    background-color: pink;
+  }
 }/*# sourceMappingURL=styles.css.map */
