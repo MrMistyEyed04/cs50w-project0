@@ -1,3 +1,7 @@
+.sub1 {
+  color: white;
+}
+
 #background {
   width: 100%;
   height: 100%;
@@ -11,9 +15,5 @@ body {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-attachment: fixed;
-  color: white;
-}
-
-.sub1 {
   color: white;
 }/*# sourceMappingURL=styles.css.map */
