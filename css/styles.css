@@ -1,5 +1,9 @@
 .sub1 {
-  color: white;
+  color: pink;
+}
+
+.videos {
+  width: 500px;
 }
 
 #background {
@@ -15,10 +19,10 @@ body {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-attachment: fixed;
-  color: white;
+  color: pink;
 }
 body h4 {
-  color: rgb(209, 27, 27);
+  color: pink(209, 27, 27);
 }
 
 @media screen and (max-width: 480px) {

@@ -1,7 +1,13 @@
-$color: white;
+$color: pink;
 %color{
     color: $color;
-} 
+
+}
+
+.videos{
+    width: 500px;
+}
+
 
 #background
 {
@@ -20,7 +26,7 @@ body{
     background-attachment: fixed;
     color: $color;
     h4{
-        color: rgb(209, 27, 27);
+        color: pink(209, 27, 27);
     }
 }
 
