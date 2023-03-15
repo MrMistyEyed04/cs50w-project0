@@ -4,8 +4,13 @@ $color: pink;
 
 }
 
+.col {
+    color: papayawhip;
+}
+
 .videos{
     width: 500px;
+    height:"500px";
 }
 
 
@@ -44,3 +49,10 @@ body{
 }
     
 }
+
+ @media (max-width: 570px)
+ {
+    .videos{
+        width: 250px;
+    }
+ }

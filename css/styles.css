@@ -2,8 +2,13 @@
   color: pink;
 }
 
+.col {
+  color: papayawhip;
+}
+
 .videos {
   width: 500px;
+  height: "500px";
 }
 
 #background {
@@ -32,5 +37,10 @@ body h4 {
   body ss {
     display: block;
     background-color: pink;
+  }
+}
+@media (max-width: 570px) {
+  .videos {
+    width: 250px;
   }
 }/*# sourceMappingURL=styles.css.map */
